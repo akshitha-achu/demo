@@ -1,4 +1,4 @@
-name: Build and Deploy Flask App to Azure Web App - mlops-flask-webapp02
+name: Build and Deploy Flask App to Azure Web App - labuser16
 
 on:
   push:
