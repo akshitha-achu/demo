@@ -1,4 +1,4 @@
-name: Build and Deploy Flask App to Azure Web App - labuser16
+name: Build and Deploy Flask App to Azure Web App - labuser16-webapp
 
 on:
   push:
@@ -26,6 +26,6 @@ jobs:
     - name: Deploy to Azure Web App
       uses: azure/webapps-deploy@v2
       with:
-        app-name: 'labuser16'
+        app-name: 'labuser16-webapp'
         publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE }}
         package: .
